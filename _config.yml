@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /greensnoteasy
+exclude: ['README.md']
