@@ -21,18 +21,19 @@ h1 {
     font-size: 3em;
 }
 
-#green {
+.green {
     color: #99cc99;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
-    color: #cccccc;
+    color: #999999;
+    font-size: 1.1em
 }
 
 svg {
     width: 3.5em;
-    fill: #cccccc;
+    fill: #999999;
 }
 
 svg:hover {
