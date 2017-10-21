@@ -21,6 +21,10 @@ h1 {
     font-size: 3em;
 }
 
+#green {
+    color: #99cc99;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     color: #cccccc;
