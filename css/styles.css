@@ -6,15 +6,14 @@ body {
     width: 60vw;
     text-align: center;
     position: relative;
-    height: 100vh;
+    height: 100%S;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .main {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    padding-top: 10vh;
+margin: auto;
 }
 
 h1 {
