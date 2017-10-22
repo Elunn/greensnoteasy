@@ -39,10 +39,6 @@ svg:hover {
 }
 
 @media(max-width: 620px){
-    p#about {
-        text-align: justify;
-    }
-    
     .main {
         padding-top: 5vh;
     }
