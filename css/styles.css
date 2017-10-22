@@ -7,13 +7,11 @@ body {
     text-align: center;
     position: relative;
     height: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: auto;
 }
 
 .main {
-    padding-top: 10vh;
-    margin: auto;
+    padding-top: 15vh;
 }
 
 h1 {
@@ -38,6 +36,16 @@ svg {
 
 svg:hover {
     fill: #99cc99;
+}
+
+@media(max-width: 620px){
+    p#about {
+        text-align: justify;
+    }
+    
+    .main {
+        padding-top: 5vh;
+    }
 }
 
 @media(max-width: 480px){
