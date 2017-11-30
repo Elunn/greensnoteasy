@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Catamaran:700|Roboto" rel="stylesheet">
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="{{site.baseurl}}css/main.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/fav.png">
@@ -31,15 +31,15 @@
             <header>
                 <div class="container">
                     <div class="row">
-                        <div class="five columns"><a href="index.html">SPD New Designers <b>2018</b></a></div>
+                        <div class="five columns"><a href="{{site.baseurl}}index.html">SPD New Designers <b>2018</b></a></div>
                         <div class="seven columns">
 <!--Nav for large screens-->
                             <nav class="navWide">
                                 <ul>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="who.html">Who</a></li>
-                                    <li><a href="sponsors.html">Sponsors</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="{{site.baseurl}}about.html">About</a></li>
+                                    <li><a href="{{site.baseurl}}who.html">Who</a></li>
+                                    <li><a href="{{site.baseurl}}sponsors.html">Sponsors</a></li>
+                                    <li><a href="{{site.baseurl}}contact.html">Contact</a></li>
                                     
                                 </ul>
                             </nav>
@@ -57,10 +57,10 @@
                                 <ul class="navNarrow">
                                     <li><a  id="nav-toggle" href="#">&#9776;</a></li>
                                     <div id="toggle" class="hide">
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="who.html">Who</a></li>
-                                    <li><a href="sponsors.html">Sponsors</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="{{site.baseurl}}about.html">About</a></li>
+                                    <li><a href="{{site.baseurl}}who.html">Who</a></li>
+                                    <li><a href="{{site.baseurl}}sponsors.html">Sponsors</a></li>
+                                    <li><a href="{{site.baseurl}}contact.html">Contact</a></li>
                                     </div>
                                 </ul>
                             </nav>
@@ -72,26 +72,7 @@
                 </div>
             </header>
             
-            <div class="container">
-                <div class="row">
-                    <div class="twelve columns">
-                        <div class="slideContainer">
-                        <div id="slideshow">
-                           <div class="homeImg">
-                             <img src="images/homepage/20171129_134556.jpg">
-                           </div>
-                           <div class="homeImg">
-                             <img src="images/homepage/IMG_1172-2.jpg">
-                           </div>
-                           <div class="homeImg">
-                             <img src="images/homepage/IMG_20171116_121758.jpg">
-                           </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
+            {{content}}
             
         </div>
     </div>
@@ -124,5 +105,5 @@
     </footer>
 </body>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="menu.js"></script>
+    <script src="{{site.baseurl}}menu.js"></script>
 </html>
