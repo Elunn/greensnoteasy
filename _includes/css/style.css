@@ -184,12 +184,11 @@ form {
         flex-wrap: wrap;
         justify-content: space-between;
         margin: 1em 0 1em 0;
-    }
+    } 
 
     .profile {
         background-color: #96ed94;
         margin-bottom: 2em;
-/*        width: 100%;*/
         border-radius: 50%;
         position: relative;
     }
@@ -204,6 +203,8 @@ form {
         transform: translate(-50%, -50%);
         text-align: center;
         display: none;
+        padding: 0;
+        margin: 0;
     }
 
     .profile:hover h1 {
