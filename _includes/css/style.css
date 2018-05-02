@@ -1,6 +1,11 @@
 
 /*Default layout styles*/
 
+NDgreen {
+    color: #56ed8e;
+    text-align: center;
+}
+
 ul {
  list-style: none;
 }
