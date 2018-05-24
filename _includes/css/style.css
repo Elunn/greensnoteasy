@@ -1,6 +1,10 @@
 
 /*Default layout styles*/
 
+.sponsor {
+    width: 100%;
+}
+
 .NDgreen {
     color: #56ed8e;
     text-align: center;
