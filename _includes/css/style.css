@@ -136,7 +136,7 @@ svg {
 }
 
 footer svg:hover {
-    fill: #96ed94;
+    fill: #66cc99;
     -webkit-transition: all 300ms ease;
 }
 
@@ -175,7 +175,7 @@ footer .cls-1 {
 /*hero styles*/
 
 .hero h1{
-    background-color: #96ed94;
+    background-color: #66cc99;
     color: white;
     font-family: 'Catamaran', sans-serif;
     bottom: 0;
@@ -219,7 +219,7 @@ form {
     } 
 
     .profile {
-        background-color: #96ed94;
+        background-color: #66cc99;
         margin-bottom: 2em;
         border-radius: 50%;
         position: relative;
@@ -296,6 +296,6 @@ p {
 }
 
 .profileContact svg:hover {
-    fill: #96ed94;
+    fill: #66cc99;
     -webkit-transition: all 300ms ease;
 }
