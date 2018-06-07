@@ -253,7 +253,7 @@ form {
 #padding {
     opacity: 0;
 }
-/* Larger than phablet (also point when grid becomes active) */
+/* Larger than tablet (also point when grid becomes active) */
 @media (min-width: 550px) {
     .profile {
         width: 45%;
@@ -300,3 +300,474 @@ p {
     fill: #66cc99;
     -webkit-transition: all 300ms ease;
 }
+
+/* ----------------------------------------------------Projects page styling */
+
+.projects {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em 0;
+    overflow: hidden;
+}
+
+.project {
+    margin-bottom: 2em;
+    position: relative;
+    cursor: pointer;
+}
+
+.project h1 {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    font-size: 2em;
+    color: white;
+    transform: translate(-50%, -50%);        
+    text-align: center;
+    display: none;
+}
+
+.project:hover h1 {
+    display: block; 
+}
+
+#box {
+    width: 100%;
+}
+
+#box:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+@media (min-width: 550px) {
+    #box {
+        width: 48%;
+    }
+    
+    .project {
+    margin-bottom: 1.5em;
+    }
+}
+
+@media (min-width: 750px) {
+    #box {
+        width: 30%;
+    }
+}
+
+/*-------------images*/
+
+/*Jayden tool*/
+.img1 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm1.staticflickr.com/878/41589823995_7aa6395f18_b.jpg");
+    background-size: cover;
+}
+
+.img1:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm1.staticflickr.com/878/41589823995_7aa6395f18_b.jpg");
+}
+
+/*cassie light*/
+
+.img2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1737/40777493680_ceeb2a7842_b.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.img2:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1737/40777493680_ceeb2a7842_b.jpg");
+}
+
+/*saxon*/
+
+.img3 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm1.staticflickr.com/874/41589825335_e21432808b_b.jpg");
+    background-size: cover;
+}
+
+.img3:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm1.staticflickr.com/874/41589825335_e21432808b_b.jpg");
+}
+
+/*nathaniel toy*/
+
+.img4 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1746/42492490361_2988677bc8_b.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.img4:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1746/42492490361_2988677bc8_b.jpg");
+}
+
+/*arthur kitchen*/
+
+.img5 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1738/41862993454_60b659ff29_b.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.img5:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1738/41862993454_60b659ff29_b.jpg");
+}
+
+/*luke bag*/
+
+.img6 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm1.staticflickr.com/885/41589805315_53d10ebfef_b.jpg");
+    background-size: cover;
+
+}
+
+.img6:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm1.staticflickr.com/885/41589805315_53d10ebfef_b.jpg");
+}
+
+/*charlie light*/
+
+.img7 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1754/42532843812_4210fb2abf_b.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.img7:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1754/42532843812_4210fb2abf_b.jpg");
+}
+
+/*connie well being*/
+
+.img8 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1735/42532610322_14beaffd02_b.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
+.img8:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1735/42532610322_14beaffd02_b.jpg");
+}
+
+/*elliot formit*/
+
+.img9 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1754/27716702237_d5659260f2_b.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img9:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1754/27716702237_d5659260f2_b.jpg");
+}
+
+/*chloe*/
+
+.img10 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1726/41683642915_17af3b5a28_b.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img10:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1726/41683642915_17af3b5a28_b.jpg");
+}
+
+/*drew beer*/
+
+.img11 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1726/41862968744_4f7e6f9d2b_b.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img11:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1726/41862968744_4f7e6f9d2b_b.jpg");
+}
+
+/*Wiktoria jacket*/
+
+.img12 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1756/27716668887_ace733954e_b.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+.img12:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1756/27716668887_ace733954e_b.jpg");
+}
+
+/*chloe tine tor*/
+
+.img13 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1737/27716569237_1f712983d9_b.jpg");
+    background-size: cover;
+    background-position: cente
+}
+
+.img13:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1737/27716569237_1f712983d9_b.jpg");
+}
+
+/*charlie bike*/
+
+.img14 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1730/28710480718_f32bbdf5a4_b.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img14:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1730/28710480718_f32bbdf5a4_b.jpg");
+}
+
+/*jayden farm*/
+
+.img15 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1739/27716541017_1d91e69d2f_b.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+.img15:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1739/27716541017_1d91e69d2f_b.jpg");
+}
+
+/*stefan*/
+
+.img16 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1729/41901433534_efe67fc7b4_b.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img16:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1729/41901433534_efe67fc7b4_b.jpg");
+}
+
+/*skye careing*/
+
+.img17 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1746/40810443480_37ee7cc799_b.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img17:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1746/40810443480_37ee7cc799_b.jpg");
+}
+
+/*drew light*/
+
+.img18 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1725/42567855082_c5ffcf2f82_b.jpg");
+    background-size: cover;
+    background-position: left;
+}
+
+.img18:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1725/42567855082_c5ffcf2f82_b.jpg");
+}
+
+/*cassie toy*/
+
+.img19 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1730/27749732517_b37e40f2ca_b.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img19:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1730/27749732517_b37e40f2ca_b.jpg");
+}
+
+/*connie hex*/
+
+.img20 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1757/40810439850_4a8127f24a_b.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img20:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1757/40810439850_4a8127f24a_b.jpg");
+}
+
+/*Arthur Life Stories*/
+
+.img21 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1740/27716615957_c5f9a06eea_b.jpg");
+    background-size: cover;
+    background-position: cente
+}
+
+.img21:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1740/27716615957_c5f9a06eea_b.jpg");
+}
+
+/*Arthur Life Stories*/
+
+.img22 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1758/27750102937_0114bf224d_b.jpg");
+    background-size: cover;
+    background-position: cente
+}
+
+.img22:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1758/27750102937_0114bf224d_b.jpg");
+}
+
+/*Skye Tribute*/
+
+.img23 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1756/42618318471_85658ded43_b.jpg");
+    background-size: cover;
+    background-position: cente
+}
+
+.img23:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1756/42618318471_85658ded43_b.jpg");
+}
+
+/*john*/
+
+.img24 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://farm2.staticflickr.com/1751/42585017881_501804e3d7_b.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img24:hover {
+    background-image: linear-gradient(rgba(102,204,153,0.4), rgba(102,204,153,0.4)), url("https://farm2.staticflickr.com/1751/42585017881_501804e3d7_b.jpg");
+}
+
+.modal {
+    display: none;   
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    position: fixed;
+    background-color: #fefefe;
+    width: 600px;
+    max-width: 90%;
+    max-height: 80%;
+    top: 0;
+    padding: 1.5em;
+    margin: 1em;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+}
+
+.modal p {
+    padding: 1em 0;
+}
+
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -.2em;
+    display: inline-block;
+}
+
+.close:hover, 
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.product {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.modal h2 {
+    display: inline-block;
+    padding-bottom: .5em;
+}
+
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
