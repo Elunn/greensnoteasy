@@ -176,7 +176,7 @@ footer .cls-1 {
 /*hero styles*/
 
 .hero h1{
-    background-color: #66cc99;
+    background-color: #46b861;
     color: white;
     font-family: 'Catamaran', sans-serif;
     bottom: 0;
@@ -220,7 +220,7 @@ form {
     } 
 
     .profile {
-        background-color: #66cc99;
+        background-color: #46b861;
         margin-bottom: 2em;
         border-radius: 50%;
         position: relative;
