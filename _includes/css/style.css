@@ -724,8 +724,8 @@ p {
     overflow-y: auto;
 }
 
-.modal p {
-    margin-top: 2em;
+.modal-content p {
+    margin-top: 1em;
 }
 
 
