@@ -761,11 +761,18 @@ body.modal-open {
     position: fixed;
 }
 
+/*Booklet*/
 
+.book {
+    width: 100%;
+    margin: 0 auto;
+}
 
-
-
-
+@media (min-width: 550px) {
+    .book {
+        width: 80%;
+    }
+}
 
 
 
